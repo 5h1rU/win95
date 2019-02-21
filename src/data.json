@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "About Me",
+      "icon": "folder.png",
+      "type": "folder",
+      "status": {
+        "open": false,
+        "maximize": false,
+        "featuring": true
+      },
+      "childrenTasks": [2, 3]
+    },
+    {
+      "id": 2,
+      "name": "Settings",
+      "icon": "text.png",
+      "type": "folder",
+      "status": {
+        "open": true,
+        "maximize": false,
+        "featuring": true
+      },
+      "childrenTasks": [2, 3]
+    },
+    {
+      "id": 3,
+      "name": "(C:)",
+      "icon": "network.png",
+      "type": "folder",
+      "status": {
+        "open": true,
+        "maximize": false,
+        "featuring": true
+      },
+      "childrenTasks": [2, 3]
+    }
+  ]
+}
